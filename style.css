@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f4d04e;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.6rem;
+}
+
+.card-container {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2rem;
+  box-shadow: 7px 7px black;
+  margin: 0 auto;
+  margin-top: 21vh;
+  max-width: 38.4rem;
+}
+
+.inner_card_container {
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  max-width: 33.6rem;
+}
+
+.card_img {
+  border-radius: 1rem;
+}
+
+.card_title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.author {
+  display: flex;
+  gap: 0.55rem;
+  margin: 2.4rem 0;
+}
+
+.author_img {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.author_name {
+  align-content: center;
+}
