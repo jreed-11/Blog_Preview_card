@@ -56,10 +56,21 @@ body {
 }
 
 .card_title {
+  color: black;
+  display: inline-block;
   font-size: 2rem;
   font-weight: 800;
   margin: 1.2rem 0;
   text-align: top;
+  text-decoration: none;
+}
+
+.card_title {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #f4d04e;
 }
 
 .published_date {
