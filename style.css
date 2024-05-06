@@ -10,11 +10,16 @@ html {
   font-size: 62.5%;
 }
 
-body {
+body,
+.card_tag {
   background-color: #f4d04e;
+}
+
+body {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.6rem;
+  font-style: normal;
+  font-size: 1.4rem;
 }
 
 .card-container {
@@ -34,6 +39,18 @@ body {
   max-width: 33.6rem;
 }
 
+.card_details_container {
+  margin-top: 2.4rem;
+}
+
+.card_tag {
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 0.4rem 1.2rem;
+}
+
 .card_img {
   border-radius: 1rem;
 }
@@ -41,6 +58,18 @@ body {
 .card_title {
   font-size: 2rem;
   font-weight: 800;
+  margin: 1.2rem 0;
+  text-align: top;
+}
+
+.published_date {
+  margin-top: 1.2rem;
+}
+
+.card_text {
+  color: grey;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .author {
@@ -57,4 +86,5 @@ body {
 
 .author_name {
   align-content: center;
+  font-weight: bold;
 }
